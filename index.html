@@ -121,9 +121,10 @@
             </ol>
 
             <h2 id="Goal">Goal</h2>
-            <p>
-            <b>Get to know each other, become comfortable, and learn our roles on the team.</b>
-            </p>
+            <label for="goal"> The goal today is: </label>
+            <br/>
+            <textarea name="goal" id="goal" cols="30" rows="10">Get to know each other, become comfortable, and learn our roles on the team.</textarea> 
+            
 
             <h2 id="Tasks">Tasks</h2>
             <ol>
@@ -163,8 +164,42 @@
             </ol>
         </main>
         <hr />
-        <footer>
+        <button type="button" onclick="alert('wsg')"> Button </button>
+        <hr />
+        <form>
+            <fieldset>
+                <legend> Pick the best Soulslike game</legend>
+                <input type="radio" id="elden" name="game" value="E" />
+                <label for="elden"> Elden Ring</label>
+                <input type="radio" id="sekiro" name="game" value="S" />
+                <label for="sekiro"> Sekiro</label>
+                <input type="radio" id="DS1" name="game" value="D" />
+                <label for="DS1"> Dark Souls I</label>
+            </fieldset>
+        </form>
+        <hr />
+        <label for="color"> Choose a color: </label>
+        <input list="colors" id="color" name="color" />
 
+        <datalist id="colors">
+            <option value="black"></option>
+            <option value="red"></option>
+            <option value="pink"></option>
+            <option value="purple"></option>
+            <option value="green"></option>
+        </datalist>
+
+        <label for="color2"> Choose a second color: </label>
+        <select name="colors2" id="color2">
+            <option value="">--Please choose an option--</option>
+            <option value="blue">blue</option>
+            <option value="brown">brown</option>
+            <option value="orange">orange</option>
+            <option value="yellow">yellow</option>
+            <option value="white">white</option>
+        </select>
+        <footer>
+            Signing off
         </footer>
     </body>
 </html>
