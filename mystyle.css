@@ -93,3 +93,15 @@ details {
 strong {
     display: block;
 }
+
+a:link {
+    color: var(--headingColor);
+}
+
+a:hover {
+    color: rgb(205, 160, 219);
+}
+
+a:active {
+    color: hsl(271, 97%, 53%);
+}
