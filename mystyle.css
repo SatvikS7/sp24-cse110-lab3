@@ -21,3 +21,7 @@
 h2 {
     color: var(--headingColor, teal);
 }
+
+.container{
+    background-color: var(--headingColor);
+}
