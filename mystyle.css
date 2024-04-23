@@ -13,6 +13,8 @@
     padding-right: 1mm;
     padding-bottom: 1vh;
     padding-left: 0px;
+    position: relative;
+    left: 200px;
 }
 
 .attenWrapper {
@@ -35,6 +37,10 @@
 
 }
 
+.imgContainer {
+    position: sticky;
+    top: 0px;
+}
 .gridItem {
   align-items: center;
 }
