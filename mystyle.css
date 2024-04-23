@@ -32,9 +32,17 @@
 
 .bodyContainer {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 300px auto auto;
     background-color: #Cce9b7;
 
+}
+
+@media screen and (max-width: 850px) {
+    .bodyContainer {
+        display: contents;
+        background-color: #cce9b7;
+    }
+    
 }
 
 .imgContainer {
@@ -92,6 +100,15 @@ details {
 
 strong {
     display: block;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+}
+
+img {
+    width: 150px;
 }
 
 a:link {
