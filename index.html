@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Meeting Minutes Team 22</title>
         <link rel="icon" href="misc/favicon.ico">
+        <link rel="stylesheet" href="mystyle.css">
     </head>
     <body>
         <img src="misc/TeamIcon_3Diagonal.png" alt="logo" width="200">
@@ -127,9 +128,9 @@
 
             <h2 id="Tasks">Tasks</h2>
             <ul>
-                <li><input type = "checkbox"/>Bonding game (30 min)</li> 
-                <li><input type = "checkbox"/>Intro Meeting (1 hr)</li> 
-                <li><input type = "checkbox"/>Video Ideas (30 min)</li> 
+                <li id="tlist1"><input type = "checkbox"/>Bonding game (30 min)</li> 
+                <li id="tlist2"><input type = "checkbox"/>Intro Meeting (1 hr)</li> 
+                <li id="tlist3"><input type = "checkbox"/>Video Ideas (30 min)</li> 
             </ul>
 
             <h2 id="Summary">Summary</h2>
@@ -160,7 +161,7 @@
         <button type="button" onclick="alert('wsg')"> Button </button>
         <hr />
         <form>
-            <fieldset>
+            <fieldset id="gamelist">
                 <legend> Pick the best Soulslike game</legend>
                 <input type="radio" id="elden" name="game" value="E" />
                 <label for="elden"> Elden Ring</label>

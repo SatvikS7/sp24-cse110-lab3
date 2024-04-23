@@ -1,0 +1,19 @@
+#tlist1 {
+    color: red;
+}
+
+#tlist2 {
+    color: #228B22;
+}
+
+#tlist3 {
+    color: rgb(0,0, 255);
+}
+
+#gamelist {
+    color: hsl(271, 97%, 53%);
+}
+
+h2 {
+    color: color(display-p3 0.806 0.566 0.863);
+}
