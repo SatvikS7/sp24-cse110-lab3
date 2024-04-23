@@ -2,6 +2,18 @@
     --headingColor: color(display-p3 0.806 0.566 0.862);
 }
 
+.container{
+    background-color: var(--headingColor);
+    font-size: 1em;
+    width: 300px;
+    height: 1in;
+    text-align: center;
+    text-justify: auto;
+    padding-top: 1rem;
+    padding-right: 1mm;
+    padding-bottom: 1vh;
+}
+
 #tlist1 {
     color: red;
 }
@@ -22,6 +34,3 @@ h2 {
     color: var(--headingColor, teal);
 }
 
-.container{
-    background-color: var(--headingColor);
-}
