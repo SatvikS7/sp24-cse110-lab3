@@ -12,6 +12,11 @@
     padding-top: 1rem;
     padding-right: 1mm;
     padding-bottom: 1vh;
+    padding-left: 0px;
+}
+
+.attenWrapper {
+    width: 130px;
 }
 
 #tlist1 {
@@ -28,9 +33,33 @@
 
 #gamelist {
     color: hsl(271, 97%, 53%);
+    text-decoration: underline;
 }
 
 h2 {
     color: var(--headingColor, teal);
+    margin: 45px 0px 5px 0px;
+
 }
 
+video {
+    padding: 30px 0px 30px 0px;
+    margin: auto;
+}
+
+footer {
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-style: dashed;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+details {
+    border-style: double;
+    border-color: var(--headingColor);
+    border-radius: 1.2em;
+    border-width: 10px;
+}
