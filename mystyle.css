@@ -1,3 +1,7 @@
+:root {
+    --headingColor: color(display-p3 0.806 0.566 0.862);
+}
+
 #tlist1 {
     color: red;
 }
@@ -15,5 +19,5 @@
 }
 
 h2 {
-    color: color(display-p3 0.806 0.566 0.862);
+    color: var(--headingColor, teal);
 }
