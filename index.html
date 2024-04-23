@@ -7,23 +7,24 @@
         <link rel="icon" href="misc/favicon.ico">
         <link rel="stylesheet" href="mystyle.css">
     </head>
-    <body>
-        <img src="misc/TeamIcon_3Diagonal.png" alt="logo" width="200">
-        <header>
+    <body class="bodyContainer">
+        <img class="gridItem" src="misc/TeamIcon_3Diagonal.png" alt="logo" width="200">
+        <header class="gridItem">
             <div class="container"> <h1> Kickoff Meeting</h1> </div>
             <nav>
-                <ul>
-                    <li><a href="#Attendance">Attendance</a></li>
-                    <li><a href="#Goal">Goal</a></li>
-                    <li><a href="#Tasks">Tasks</a></li>
-                    <li><a href="#Summary">Summary</a></li>
-                    <li><a href="#Leftover_Tasks">Leftover Tasks</a></li>
+                <ul class="navContainer">
+                    <li class="navList"><a href="#Attendance">Attendance</a></li>
+                    <li class="navList"><a href="#Goal">Goal</a></li>
+                    <li class="navList"><a href="#Tasks">Tasks</a></li>
+                    <li class="navList"><a href="#Summary">Summary</a></li>
+                    <li class="navList"><a href="#Leftover_Tasks">Leftover Tasks</a></li>
                 </ul>
             </nav>
         </header>
-
+        <br class="gridItem"/>
         <main>
-            <h2 id="Attendance">Attendance</h2>
+      
+            <h2  id="Attendance">Attendance</h2>
             <h3><i>Present</i></h3>
             <ol class="attenWrapper">    
                 <li>
@@ -127,12 +128,13 @@
             
 
             <h2 id="Tasks">Tasks</h2>
-            <ul>
+            <ul class="taskContainer">
                 <li id="tlist1"><input type = "checkbox"/>Bonding game (30 min)</li> 
                 <li id="tlist2"><input type = "checkbox"/>Intro Meeting (1 hr)</li> 
                 <li id="tlist3"><input type = "checkbox"/>Video Ideas (30 min)</li> 
             </ul>
-
+        </main>
+        <div>
             <h2 id="Summary">Summary</h2>
             <section>
                 We experienced a <strong>merge conflict</strong> during our meeting. 
@@ -156,8 +158,7 @@
             <ol>
                 <li>Team Contract</li>
             </ol>
-        </main>
-        <hr />
+        </div>
         <button type="button" onclick="alert('wsg')"> Button </button>
         <hr />
         <form>
@@ -172,9 +173,10 @@
             </fieldset>
         </form>
         <hr />
-        <label for="color"> Choose a color: </label>
-        <input list="colors" id="color" name="color" />
-
+        <div>
+            <label for="color"> Choose a color: </label>
+            <input list="colors" id="color" name="color" />
+        </div>
         <datalist id="colors">
             <option value="black"></option>
             <option value="red"></option>
@@ -182,16 +184,17 @@
             <option value="purple"></option>
             <option value="green"></option>
         </datalist>
-
-        <label for="color2"> Choose a second color: </label>
-        <select name="colors2" id="color2">
-            <option value="">--Please choose an option--</option>
-            <option value="blue">blue</option>
-            <option value="brown">brown</option>
-            <option value="orange">orange</option>
-            <option value="yellow">yellow</option>
-            <option value="white">white</option>
-        </select>
+        <div>
+            <label for="color2"> Choose a second color: </label>
+            <select name="colors2" id="color2">
+                <option value="">--Please choose an option--</option>
+                <option value="blue">blue</option>
+                <option value="brown">brown</option>
+                <option value="orange">orange</option>
+                <option value="yellow">yellow</option>
+                <option value="white">white</option>
+            </select>
+        </div>
         <footer>
             Signing off
         </footer>

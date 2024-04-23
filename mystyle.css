@@ -19,6 +19,26 @@
     width: 130px;
 }
 
+.navContainer {
+    display:inline-flex;
+    display: flex;
+}
+
+.navList {
+    margin-left: 40px;
+}
+
+.bodyContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #Cce9b7;
+
+}
+
+.gridItem {
+  align-items: center;
+}
+
 #tlist1 {
     color: red;
 }
@@ -62,4 +82,8 @@ details {
     border-color: var(--headingColor);
     border-radius: 1.2em;
     border-width: 10px;
+}
+
+strong {
+    display: block;
 }
