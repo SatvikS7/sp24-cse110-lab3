@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Heebo:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    justify-content: center;
+}
+
 :root {
     --headingColor: color(display-p3 0.806 0.566 0.862);
 }
@@ -45,6 +49,14 @@
         display: contents;
         background-color: #cce9b7;
     }
+
+    .container{
+        left: 50px;
+    }
+
+    a {
+        margin-right: 0px;
+    }
     
 }
 
@@ -54,6 +66,10 @@
 }
 .gridItem {
   align-items: center;
+}
+
+.buttonContainer {
+    padding-left: 150px;
 }
 
 #tlist1 {
@@ -105,17 +121,40 @@ strong {
     display: block;
 }
 
-button {
-    width: 100px;
-    height: 30px;
-}
-
-img {
+button, img {
     width: 150px;
+    height: 150px;
 }
 
-a:link {
-    color: var(--headingColor);
+div em{
+    background-color: #cce9b7;
+}
+
+details > summary {
+    text-decoration:line-through;
+}
+
+div ~ label {
+    font-family: Kanit;
+}
+
+div + footer {
+    background-color: white;
+}
+
+ol.attenWrapper {
+    background-color: rgb(239, 225, 243);
+}
+
+h3:has(+ ol) {
+    margin-left: 50px;
+}
+
+a {
+    margin-bottom: 50px;
+    &:link {
+        color: var(--headingColor);
+    }
 }
 
 a:hover {
@@ -124,4 +163,8 @@ a:hover {
 
 a:active {
     color: hsl(271, 97%, 53%);
+}
+
+div[para] {
+    background-color: var(--headingColor);
 }
