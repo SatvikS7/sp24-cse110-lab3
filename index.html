@@ -139,13 +139,15 @@
         <div>
             <h2 id="Summary">Summary</h2>
             <section>
-                We experienced a <strong>merge conflict</strong> during our meeting. 
-                <br />
-                To resolve similar issues in the future, we can create a new branch and commit to there;
-                <em>given that everybody is working on different files</em>. 
-                <br />
-                Then, we can merge the branch and the main branch and delete the branch.
-                <hr />
+                <div para="first">
+                    We experienced a <strong>merge conflict</strong> during our meeting. 
+                    <br />
+                    To resolve similar issues in the future, we can create a new branch and commit to there;
+                    <em>given that everybody is working on different files</em>. 
+                    <br />
+                    Then, we can merge the branch and the main branch and delete the branch.
+                    <hr />
+                </div>
                 <b>Solution: </b> <br />
                 <video width="320" height="240" controls>
                     <source src="misc/How%20to%20resolve%20merge%20conflicts%20in%20Git.mp4" type="video/mp4">
@@ -161,11 +163,13 @@
                 <li>Team Contract</li>
             </ol>
         </div>
-        <button type="button" onclick="alert('wsg')"> Button </button>
+        <div class="buttonContainer">
+            <button type="button" onclick="alert('wsg')"> Button </button>
+        </div>
         <hr />
         <form>
             <fieldset id="gamelist">
-                <legend> Pick the best Soulslike game</legend>
+                <div><legend> Pick the best Soulslike game</legend></div>
                 <input type="radio" id="elden" name="game" value="E" />
                 <label for="elden"> Elden Ring</label>
                 <input type="radio" id="sekiro" name="game" value="S" />
